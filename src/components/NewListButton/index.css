@@ -1,0 +1,28 @@
+.Button {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.15);
+    height: 35px;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.Button:hover {
+    background-color: rgba(0,0,0,.27);
+}
+
+.Button:active {
+    background-color: rgba(0,0,0,.10);
+}
+
+.Button-placeholder {
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.7);
+}
+
+.Button-icon-add {
+    margin: 0px 7px;
+}
